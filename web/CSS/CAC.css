@@ -1,0 +1,103 @@
+*{
+
+  margin                 : 0;
+  padding                : 0;
+ 
+}
+
+
+body{
+
+  background             : #e3f7cd;
+
+}
+
+
+input[value="Calculate"]{
+
+  background             : #c4d4f1;
+  padding                : 2px;
+  color                  : black;
+  width                  : 5%;
+  height                 : 22px;
+
+}
+
+
+input[value="Calculate"]:hover{
+
+  color                  : #fff;
+  cursor                 : pointer;
+  background             : #000;
+
+}
+
+
+table{
+
+  width                  : 45%;
+  border                 : 2px solid black;
+
+}
+
+
+input[value="Logout"]{
+ 
+  background             : #37FD90;
+  padding                : 2px;
+  color                  : black;
+  width                  : 7%;
+  height                 : 30px;
+  font-weight            : bold;
+
+}
+
+
+input[value="Back"]{
+
+  background             : pink;
+  padding                : 2px;
+  color                  : black;
+  width                  : 7%;
+  height                 : 30px;
+  font-weight            : bold;
+
+}
+
+
+input[value="Logout"]:hover{
+
+  color                  : #fff;
+  cursor                 : pointer;
+  background             : #000;
+
+}
+
+
+input[value="Back"]:hover{
+
+  color                  : #fff;
+  cursor                 : pointer;
+  background             : #000;
+
+}
+
+
+.footr{
+
+  background-color        : RGBA(-11,21,14,0.8);
+  padding                 : 12px;   
+  margin-top              : 4%;
+
+}
+
+
+.footr p{
+
+  text-align              : center;
+  color                   : gray;
+  font-family             : arial;
+  font-size               : 11px;
+  padding                 : 7px;  
+
+}

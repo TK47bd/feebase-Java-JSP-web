@@ -1,0 +1,78 @@
+*{margin: 0;
+padding: 0}
+
+.body{
+	width: 100%;
+	background: black;
+}
+.h2class{
+        color:#C2DDFE;
+        font-family: 'Cute Font', cursive;
+}
+.full_form{
+	background: gray;
+	margin-top: 8%;
+        width: 40%;
+}
+
+label{
+	color: black;
+	font-family: 'Amatic SC', cursive;
+	margin: 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+h4{
+	width: 370px;
+	color: black;	
+	font-family: 'Cute Font', cursive;
+	font-weight: bold;
+	text-shadow: 5px 2px 5px white;
+	margin-top: 15px;
+	margin-left: 20px;
+	
+}
+input{
+	background: black;
+	color: white;
+	font-family: 'Cute Font', cursive;
+}
+select{
+	background: black;
+	color: white;
+	margin-left: 20px;
+}
+.cr_button{
+	height: 30px;
+	width: 60px;
+}
+.cr_button:hover {
+	background: green;
+	transition: 0.5s all ease;
+}
+.back_button{
+	height: 30px;
+	width: 60px;
+	text-align: center;
+}
+.back_button:hover {
+	background: green;
+	transition: 0.5s all ease;
+}
+.footr{
+
+  background-color        : gray;
+  padding                 : 12px;   
+  margin-top              : 8%;
+
+}
+.footr p{
+ 
+  text-align              : center;
+  color                   : black;
+  font-family             : Tahoma;
+  font-size               : 11px;
+  padding                 : 7px;  
+
+}

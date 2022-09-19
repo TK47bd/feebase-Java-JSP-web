@@ -1,0 +1,150 @@
+*{
+
+  margin                 : 0;
+  padding                : 0;
+ 
+}
+
+
+body{
+
+  background             : #70A072; 
+
+}
+
+
+.cost_adder{
+
+  border                 : 1px solid gray;
+  width                  : 80%;
+  margin-top             : 5%;
+  margin-bottom          : 5%;
+
+}
+
+
+#init_inp{
+
+  border                 : 1px solid black;
+
+}
+
+
+input[value="Find"]{
+
+  background             : #c4d4f1;
+  padding                : 2px;
+  color                  : black;
+  width                  : 5%;
+  height                 : 22px;
+
+}
+
+
+input[value="Find"]:hover{
+
+  color                  : #fff;
+  cursor                 : pointer;
+  background             : #000;
+
+}
+
+.table{
+ 
+  background             : #fdf0f0;
+  height                 : 80px;
+  width                  : 80%; 
+  margin                 : 0 auto;
+
+}
+
+
+.table caption{
+
+  background             : #E6DADA;  
+  background             : -webkit-linear-gradient(to right, #274046, #E6DADA); 
+  background             : linear-gradient(to right, #274046, #E6DADA); 
+  size                   : 40px;
+  font-family            : Tahoma;
+  text-align             : center;
+
+}
+
+
+table,th,td{
+
+  border                 : 1px solid;
+  text-align             : center;
+  background             : #e7e5e8;
+  font-family            : arial;
+
+}
+
+
+table,thead,tr,th{
+
+  background             : gray;
+
+}
+
+
+input[value="Logout"]{
+ 
+  background             : #37FD90;
+  padding                : 2px;
+  color                  : black;
+  width                  : 7%;
+  height                 : 30px;
+  font-weight            : bold;
+
+}
+
+
+input[value="Back"]{
+
+  background             : pink;
+  padding                : 2px;
+  color                  : black;
+  width                  : 7%;
+  height                 : 30px;
+  font-weight            : bold;
+
+}
+
+
+input[value="Logout"]:hover{
+
+  color                  : #fff;
+  cursor                 : pointer;
+  background             : #000;
+
+}
+
+
+input[value="Back"]:hover{
+
+  color                  : #fff;
+  cursor                 : pointer;
+  background             : #000;
+
+}
+
+
+.footr{
+
+  background-color        : RGBA(23,23,23,0.8);
+  padding                 : 12px;   
+  margin-top              : 5%;
+
+}
+
+
+.footr p{
+
+  text-align              : center;
+  color                   : gray;
+  font-family             : arial;
+  font-size               : 11px;
+  padding                 : 7px;  
+
+}

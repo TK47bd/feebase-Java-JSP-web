@@ -1,0 +1,207 @@
+
+
+
+*{
+
+  margin                 : 0;
+  padding                : 0;
+ 
+}
+
+
+body{
+
+  background             : #111221;
+
+}
+
+
+.admin_pic::after{
+
+  background-image       : url('../imgs/admin.jpg');
+  background-size        : 24px 22px;
+  display                : inline-block;
+  width                  : 24px; 
+  height                 : 22px;
+  background-repeat      : no-repeat;
+  content                : "";
+
+}
+
+
+.full_wrap_h{
+
+  width            : 100%;
+  background       : gray;
+  border-bottom    : 5px solid black;
+
+}
+
+
+.wrap{
+
+  margin           : 0 auto;
+  width            : 960px;
+	
+}
+
+
+.head{
+
+  display          : block;
+  border-right     : 2px solid black;
+  border-left      : 2px solid black;
+  background       : #dd3e54;  /* fallback for old browsers */
+  background       : -webkit-linear-gradient(to right, #6be585, #dd3e54);  /* Chrome 10-25, Safari 5.1-6 */
+  background       : linear-gradient(to right, #6be585, #dd3e54); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  overflow         : hidden;
+
+}
+
+
+h2{
+
+  font-size        : 45px;
+  font-family      : 'Cute Font', cursive;
+  color            : #6be585;
+  text-align       : center;
+  font-weight      : bold;
+  text-shadow      : 5px 5px 5px black,2px 2px 2px magenta;
+  box-shadow       : 4px 4px 10px 4px #808080 inset;
+
+}
+
+
+.ic{
+  
+  width            : 960px;
+  height           : 275px;
+  border           : 2px solid black;
+
+}
+
+
+legend{
+ 
+  color            : white;
+  font-size        : 30px;
+
+}
+
+
+.form_con{
+
+  background       : gray;
+  width            : 960px;
+  height           : 270px;
+
+}
+
+
+form{
+	width: 600px;
+	height: 252px;
+	float: left;
+        margin-top       : 5px;
+}
+
+
+
+
+h6{
+	font-family: 'Oswald', sans-serif;
+	font-size: 15px;
+	color: #211222;
+	align: center;
+	text-align: center;
+}
+
+
+h4{
+	font-size: 20px;
+        width: 185px;
+	color: #37FD90;
+	text-align: center;
+        border: 2px solid #211222;
+}
+
+
+a{
+
+        text-decoration: none;
+}
+
+
+h4:hover{
+	color: green;
+	text-align: center;
+	transition: 0.5s all ease;
+}
+
+
+h3{
+	color: #black;
+	margin-left: 50px;
+	margin-top: 15px;
+        margin-bottom: 22px;
+
+}
+
+
+.aside{
+	width: 320px;
+	float: left;
+}
+
+
+.aside ul li{
+	list-style-type: none;
+	margin-left: 70px;
+}
+
+
+
+.aside ul li p{
+	font-size: 16px;
+	font-family: 'Amatic SC', cursive;
+        color: #211222;
+        padding: 5px;
+}
+
+
+.aside ul li p:hover{
+	color: skyblue;
+	text-align: center;
+	transition: 0.5s all ease;
+}
+
+
+.foot{
+	border-right: 2px solid black;
+	border-left: 2px solid black;
+	border-bottom: none;
+	background: #dd3e54;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #6be585, #dd3e54);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #6be585, #dd3e54); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	overflow: hidden;
+
+}
+
+
+.foot p{
+	font-size: 24px;
+	font-family: 'Cute Font', cursive;
+	color: skyblue;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 5px 5px 5px black,2px 2px 2px #808080;
+	box-shadow: 4px 4px 6px 4px gray inset;
+}
+
+
+.full_wrap_f{
+	width: 960px;
+	background: gray;
+	border-top: 5px solid black;
+}
+
